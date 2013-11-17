@@ -1,2 +1,3 @@
-hackaton_ebe
-============
+HACKATHONEBE
+
+Maqueta realizada durante el primer HACKATHONEBE.

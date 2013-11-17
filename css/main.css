@@ -1,0 +1,255 @@
+html{
+	font-family: 'Open Sans', sans-serif;	
+}
+
+h1{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-bottom: 5px;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+}
+
+h3{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	color: #F30;	
+}
+
+h4{
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;	
+}
+
+h5{
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;	
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor_comprar{
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+	border-width: 1px;
+	border-radius: 4px;
+	border-style: solid;
+	padding: 20px;	
+	margin-top: 10px;
+}
+
+.contenedor_comprar div.margen{
+	margin-top:10px;
+}
+
+.contenedor_comprar div.botones{
+	text-align: center;
+}
+
+.contenedor_comprar div.botones button{
+	width: 200px;
+}
+
+.precio{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.precio span{
+	font-size: 20px;
+	font-weight: bold;	
+}
+
+.text_15_n{
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.contenedor_vendedor-header{
+	border-color: #e7e7e7;
+	border-width: 1px;
+	border-radius: 4px 4px 0 0;
+	border-style: solid;
+	padding: 10px;	
+	margin-top:20px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 15px;
+}
+
+.contenedor_vendedor{
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+	border-width: 0px 1px 1px 1px;
+	border-radius: 0px 0px 4px 4px;
+	border-style: solid;
+	padding: 20px;	
+}
+
+.contenedor_vendedor div.margen{
+	margin-top:10px;
+}
+
+.contenedor_vendedor div.centro{
+	text-align: center;
+}
+
+.contenedor_vendedor div.botones{
+	text-align: center;
+}
+
+.contenedor_vendedor div.botones button{
+	width: 200px;
+}
+
+#section_home{
+	background-size: cover;
+	background-image: url('../img/portada.jpg');
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+#section_portal{
+	background-color: #ffffff;
+}
+
+#section_sevilla{
+	background-size: auto;
+	background-image: url('../img/sevilla.jpg');
+	background-repeat: no-repeat;
+}
+
+#section_madrid{
+	background-size: auto;
+	background-image: url('../img/madrid.jpg');
+	background-repeat: no-repeat;
+}
+
+#section_producto{
+	background-size: auto;
+	background-image: url('../img/madrid.jpg');
+	background-repeat: no-repeat;	
+}
+
+.titulo_ciudad{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;	
+}
+
+.contenedor_productos{
+	background-color: #eeeeee;
+	display: table;
+	padding: 10px;	
+	margin-bottom: 10px;
+	border: 4px solid #e7e7e7;
+}
+
+.contenedor_productos:hover{
+	border-color: #398439;
+}
+
+.contenedor_productos img{
+	max-height: 200px;
+}
+
+.reduce_padding{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.contenedor_producto_h{
+	margin-bottom:10px;
+	cursor:pointer;
+}
+
+.contenedor_producto_h:hover img{
+	border-color: #398439;
+	border-width: 2px;
+}
+
+.contenedor_opinion{
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+	border-width: 1px;
+	border-radius: 4px;
+	border-style: solid;
+	padding: 20px;	
+	margin-bottom: 10px;
+}
+
+.titulo_home{
+	font-size: 45px;
+	line-height: 90px;
+	width: 300px;
+	height: 400px;
+	background-image: url('../img/fondo.png');
+
+}
+
+.sub_titulo_home{
+	font-size: 40px;
+	color: #eeeeee;
+}
+
+.contenedor_home{
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+	border-width: 2px;
+	border-radius: 4px;
+	border-style: solid;
+	padding: 10px;
+	color: #333333;
+	cursor: pointer;
+}
+
+.contenedor_home:hover{
+	border-color: #398439;
+}
+
+.caja_mensaje_r{
+	border: 1px solid #a8a8a8;
+	background-color: #e7e7e7;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.caja_mensaje_l{
+	margin-right:10px;
+	border: 1px solid #a8a8a8;
+	background-color: #e7e7e7;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.contenedor_noticias{
+	border:1px solid #e7e7e7;
+	padding:10px;
+}
+
+.caja_timeline{
+	height: 100px;
+}
+
+.mensaje{
+	font-size: 13px;
+}
+
+.fecha{
+	font-size: 13px;
+	margin-bottom:10px;
+	line-height: 90px;
+	color: #F30;
+}
+
+.footer{
+	background-color:#f30;
+}
